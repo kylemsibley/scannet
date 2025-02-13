@@ -1,6 +1,6 @@
 # Ping Scan Network
 
-A simple Python script to scan a network for active hosts using ICMP ping requests. The script leverages the [ping3](https://github.com/kyan001/ping3) library to send pings to each host within a specified network range (in CIDR notation).
+A simple Python script to scan a network for active hosts using ICMP ping requests. I made this to replicate part of nmap's functionality in an environment where nmap is not allowed by policy. The script leverages the [ping3](https://github.com/kyan001/ping3) library to send pings to each host within a specified network range (in CIDR notation).
 
 ## Features
 
